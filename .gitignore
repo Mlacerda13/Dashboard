@@ -1,0 +1,29 @@
+Executáveis e pastas de compilação do PyInstaller
+
+build/
+dist/
+*.spec
+*.exe
+
+Arquivos de credenciais e tokens (NÂO CONSTA NO GIT)
+
+credentials.json
+token.json
+.env
+
+Arquivos de log e lock
+
+robo_facil_infra.lock
+*.log
+
+Arquivos compilados do Python
+
+pycache/
+*.py[cod]
+*$py.class
+
+Ambientes virtuais
+
+venv/
+env/
+.venv/
